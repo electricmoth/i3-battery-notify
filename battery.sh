@@ -9,9 +9,7 @@ THRESHOLD=20
 # set -xv
 
 #which X display to send notification
-# DISPLAY=localhost:0;
-# export DISPLAY=localhost:0.0;
-# export DISPLAY=:0;
+# export DISPLAY=:0.0;
 
 # charging || discharging etc
 state=$(cat /sys/class/power_supply/BAT*/status);
